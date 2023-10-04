@@ -1,73 +1,97 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-bs-theme="light">
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mon CV</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!-- Script dark mode-->
+    <script src="script.js"></script>
   </head>
 
   <body>
 
+
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <nav class="navbar bg-body-tertiary">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/logoCV.png" width="150" height="80">
-  </a>
-  </div>
-</nav>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="info.html">Mes informations</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Experiences</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#scolaires">Scolaire</a></li>
-            <li><a class="dropdown-item" href="#stage">Stage</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+<nav id="navbar-example2" class="navbar fixed-top bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#"></a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logoCV.png" width="150" height="80">
+    </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Formations</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading3">Scolaires</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading4">Stage</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading5">Centre d'interet</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading6">Permis</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Compétences</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading7">jsp</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading8">Langues</a></li>
       </ul>
-      </form>
-    </div>
-  </div>
+    </li>
+  </ul>
 </nav>
 
-<div><h1>CV</h1>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  
+  <h1 id="scrollspyHeading1">Thomas Bonnefoy</h1>
+  <p>Je m'appelle Thomas, j'ai 16 ans</p>
 
+  <h2 id="scrollspyHeading2">Formations :</h2>
+  <p>...</p>
 
-  <h2>Experience :</h2>
+  <h3 id="scrollspyHeading3">Scolaires :</h3>
 
-  <h3 id="scolaires">Scolaires :</h3>
-  <div></div>
+  <h5>2013-2017: Ecole Elémentaire Village, Irigny</h5>
 
-  <h3 id="stage">Stage :</h3>
-  <div></div>
+  <h5>2017-2021: <a href="https://aragon-picasso.ent.auvergnerhonealpes.fr" target="_blank">Collège Paul Vallon, Givors</a></h5>
 
-  <h3>Formation</h3>
-  <div id="formation">f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/></div>
+  <h5>2021-2024: <a href="https://aragon-picasso.ent.auvergnerhonealpes.fr" target="_blank">Lycée polyvalent Aragon-Picasso, Givors</a></h5>
 
-  <h3>Langues</h3>
-  <div id="langues">f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/></div>
- 
-  <h3>leadership</h3>
-  <div id="leadership">f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/></div>
+  <div>Technologique: Sti2d spécialité SIN</div>
 
-  <h3>Centre d'interet</h3>
-  <div id="centreinteret">f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/>f<br/></div>
+  <h2 id="scrollspyHeading4">Stage :</h2>
+  
+  <div>
+    <a href="https://www.boulangerie-poncet.fr" target="_blank"><h4>BOULANGERIE PONCET, IRIGNY</h4></a>
+      <p>Janvier 2021<br> 
+      Stage de 3eme pendant 1 semaine. 
+      Préparation de viennoiseries, pains et pizzas.</p>
+  </div>
+
+  <h2 id="scrollspyHeading5">Centre d'interet :</h2>
+  <p>manga jeux video automobiles velo</p>
+
+  <h2 id="scrollspyHeading6">Permis :</h2>
+
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 38%">1142 km / 3000 km</div>
+  </div>
+
+  <h2>Compétences :</h2>
+
+  <h3 id="scrollspyHeading7">jsp comment l'appeler :</h3>
+
+  <p>bootstrap html5 ccs3 git/github solid works</p>
+
+  <h3 id="scrollspyHeading8">Langues :</h3>
+  <p>anglais espagnol</p>
 
 </div>
 
