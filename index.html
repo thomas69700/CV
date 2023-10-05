@@ -14,13 +14,15 @@
 
 
 <!--Navbar-->
-<nav id="navbar-example2" class="navbar fixed-top bg-body-tertiary px-3 mb-3">
-  <a class="navbar-brand" href="#"></a>
+<nav id="navbar-example2" class="navbar fixed-top bg-body-tertiary px-3 mb-3" data-bs-theme="grey">
+  </div>
   <ul class="nav nav-pills">
     <li class="nav-item">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/logoCV.png" width="150" height="80">
-    </a>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logoCV.png" alt="Bootstrap" width="150" height="80">
+        </a>
+      </div>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#scrollspyHeading2">Formations</a>
@@ -52,9 +54,6 @@
   
   <h1 id="scrollspyHeading1">Thomas Bonnefoy</h1>
   <p>Je m'appelle Thomas, j'ai 16 ans</p>
-
-  <h2 id="scrollspyHeading2">Formations :</h2>
-  <p>...</p>
 
   <h3 id="scrollspyHeading3">Scolaires :</h3>
 
@@ -92,6 +91,34 @@
 
   <h3 id="scrollspyHeading8">Langues :</h3>
   <p>anglais espagnol</p>
+
+</div>
+
+<div class="d-grid gap-2 col-1 mx-auto"><br>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   Me contacter
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Me contacter</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Mon email : <a href="mailto:thomas.bonnefoy14@gmail.com">thomas.bonnefoy14@gmail.com</a><br>
+          Mon numéro : 01 02 03 04 05<br>
+          Mon adresse :<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.8094218612846!2d4.789143111428014!3d45.57427092596772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e12b7e269b17%3A0x78fb43562d87a78c!2s46%20Av.%20Anatole%20France%2C%2069700%20Givors!5e0!3m2!1sfr!2sfr!4v1696532917941!5m2!1sfr!2sfr" width="468" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br/> 
+          <div class="d-grid gap-2 col-3 mx-auto"><span style="text-align: center"><small><a href="https://www.google.fr/maps?f=q&source=embed&hl=fr&geocode&q=Aiguebelle&aq=0&oq=aigu&sll=45.541921,6.306159&sspn=0.090773,0.209255&num=10&ie=UTF8&hq&hnear=Aiguebelle,+Savoie,+Rh%C3%B4ne-Alpes&t=m&ll=45.541946,6.306152&spn=0.461681,0.878906&z=10&iwloc=A" target="_blank">Agrandir le plan</a></small></span></div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 
 </div>
 
