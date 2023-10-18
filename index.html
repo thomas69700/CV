@@ -13,108 +13,132 @@
   <body>
 
 
-<!--Navbar-->
-<nav id="navbar-example2" class="navbar navbar-expand-lg bg-body-tertiary px-3 mb-3 fixed-top" data-bs-theme="black">
-  <a class="navbar-brand" href="#">Cv</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CV</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-        <ul class="nav nav-pills">
-          <li class="nav-item"></li>
-          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Scolaires</a></li>
-          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Stage</a></li>
-          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading3">Centre d'interet</a></li>
-          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading4">Permis</a></li>
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Compétences</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#scrollspyHeading5">jsp</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#scrollspyHeading6">Langues</a></li>
-          </ul>
-        </ul>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!--regler incopatibiliter navbar scrollspy et fixed top-->
-<br><br><br>
-
-<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-  <h1>Thomas Bonnefoy</h1>
-  <p>Je m'appelle Thomas, j'ai 16 ans</p><br>
-
-  <h3 id="scrollspyHeading1">Scolaires :</h3><br>
-
-  <h5>2013-2017: Ecole Elémentaire Village, Irigny</h5><br>
-
-  <h5>2017-2021: <a href="https://aragon-picasso.ent.auvergnerhonealpes.fr" target="_blank">Collège Paul Vallon, Givors</a></h5>
-
-  <h5>2021-2024: <a href="https://aragon-picasso.ent.auvergnerhonealpes.fr" target="_blank">Lycée polyvalent Aragon-Picasso, Givors</a></h5>
-
-  <div>Technologique: Sti2d spécialité SIN</div><br>
-
-  <h2 id="scrollspyHeading2">Stage :</h2><br>
-  
-  <div>
-    <a href="https://www.boulangerie-poncet.fr" target="_blank"><h4>BOULANGERIE PONCET, IRIGNY</h4></a>
-      <p>Janvier 2021<br> 
-      Stage de 3eme pendant 1 semaine. 
-      Préparation de viennoiseries, pains et pizzas.</p>
-  </div><br><br><br>
-
-  <h2 id="scrollspyHeading3">Centre d'interet :</h2><br>
-  <p>manga jeux video automobiles velo</p>
-
-  <h2 id="scrollspyHeading4">Permis :</h2><br>
-
-  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 38%">1142 km / 3000 km</div>
-  </div><br>
-
-  <h2>Compétences :</h2>
-
-  <h3 id="scrollspyHeading5">jsp comment l'appeler :</h3><br>
-
-  <p>bootstrap html5 ccs3 git/github solid works</p>
-
-  <h3 id="scrollspyHeading6">Langues :</h3><br>
-  <p>anglais espagnol</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-</div>
-
-<div class="d-grid gap-2 col-1 mx-auto"><br>
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-   Me contacter
-  </button><br>
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Me contacter</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!--Navbar-->
+    <nav id="navbar-example2" class="navbar navbar-expand-lg bg-body-tertiary px-3 mb-3 fixed-top" data-bs-theme="black">
+      <a class="navbar-brand" href="#">Cv</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CV</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          Mon email : <a href="mailto:thomas.bonnefoy14@gmail.com">thomas.bonnefoy14@gmail.com</a><br>
-          Mon numéro : 01 02 03 04 05<br>
-          Mon adresse :<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.8094218612846!2d4.789143111428014!3d45.57427092596772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e12b7e269b17%3A0x78fb43562d87a78c!2s46%20Av.%20Anatole%20France%2C%2069700%20Givors!5e0!3m2!1sfr!2sfr!4v1696532917941!5m2!1sfr!2sfr" width="468" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br/> 
-          <div class="d-grid gap-2 col-3 mx-auto"><span style="text-align: center"><small><a href="https://www.google.fr/maps?f=q&source=embed&hl=fr&geocode&q=Aiguebelle&aq=0&oq=aigu&sll=45.541921,6.306159&sspn=0.090773,0.209255&num=10&ie=UTF8&hq&hnear=Aiguebelle,+Savoie,+Rh%C3%B4ne-Alpes&t=m&ll=45.541946,6.306152&spn=0.461681,0.878906&z=10&iwloc=A" target="_blank">Agrandir le plan</a></small></span></div> 
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="nav nav-pills">
+              <li class="nav-item"></li>
+              <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Scolaires</a></li>
+              <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Stage</a></li>
+              <li class="nav-item"><a class="nav-link" href="#scrollspyHeading3">Centre d'interet</a></li>
+              <li class="nav-item"><a class="nav-link" href="#scrollspyHeading4">Permis</a></li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Compétences</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#scrollspyHeading5">jsp</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#scrollspyHeading6">Langues</a></li>
+              </ul>
+            </ul>
+          </ul>
         </div>
       </div>
-    </div>
-  </div>
+    </nav>
 
-</div>
+    <!--regler incopatibiliter navbar scrollspy et fixed top-->
+    <br><br><br>
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+      
+      <div class="row">
+        <div class="col">
+          <h1>Thomas Bonnefoy</h1>
+          <p>
+            Je m'appelle Thomas, j'ai 16 ans
+          </p>
+        </div>
+        <div class="col">
+          <img src="img/photo.jpg" class="img-thumbnail" alt="...">
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <h3 id="scrollspyHeading1">Scolaires :</h3><br>
+          <h5>2013-2017: Ecole Elémentaire Village, Irigny</h5><br>
+          <h5>2017-2021: <a href="https://aragon-picasso.ent.auvergnerhonealpes.fr" target="_blank">Collège Paul Vallon, Givors</a></h5>
+          <h5>2021-2024: <a href="https://aragon-picasso.ent.auvergnerhonealpes.fr" target="_blank">Lycée polyvalent Aragon-Picasso, Givors</a></h5>
+          <p>
+            Technologique: Sti2d spécialité SIN
+          </p><br>
+          <h2 id="scrollspyHeading2">Stage :</h2><br>
+          <a href="https://www.boulangerie-poncet.fr" target="_blank"><h4>BOULANGERIE PONCET, IRIGNY</h4></a>
+          <p>
+           Janvier 2021 :<br>Stage de 3eme pendant 1 semaine. Préparation de viennoiseries, pains et pizzas
+          </p>
+        </div>
+      </div><br><br><br><br>
+
+      <div>
+        <h2 id="scrollspyHeading3">Centre d'interet :</h2><br>
+        <p>
+          manga jeux video automobiles vélo
+        </p>       
+      </div>
+
+      <div>
+        <h2 id="scrollspyHeading4">Permis :</h2><br>
+        <p>
+          04/09/22: obtention du code <a href="doc/resultat code.pdf" target="_blank">(37/40)</a>
+        </p>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 38%">1142 km / 3000 km </div>
+        </div><br>
+      </div>
+      
+      <div>
+        <h2>Diplome :</h2>
+        bac de <a href="doc/Releve de notes bac 1ere.pdf">de Francais/ troncs communs</a>
+      </div>
+
+      <div>
+        <h2>Compétences :</h2>
+        <h3 id="scrollspyHeading5">jsp comment l'appeler :</h3><br>
+        <p>
+          bootstrap html5 ccs3 git/github solid works
+        </p>
+        <h3 id="scrollspyHeading6">Langues :</h3><br>
+        <p>
+          anglais espagnol
+        </p>
+      </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      
+    </div>
+
+    <div class="d-grid gap-2 col-1 mx-auto"><br>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Me contacter
+      </button><br>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Me contacter</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Mon email : <a href="mailto:thomas.bonnefoy14@gmail.com">thomas.bonnefoy14@gmail.com</a><br>
+              Mon numéro : 01 02 03 04 05<br>
+              Mon adresse :<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.8094218612846!2d4.789143111428014!3d45.57427092596772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e12b7e269b17%3A0x78fb43562d87a78c!2s46%20Av.%20Anatole%20France%2C%2069700%20Givors!5e0!3m2!1sfr!2sfr!4v1696532917941!5m2!1sfr!2sfr" width="468" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br/> 
+              <div class="d-grid gap-2 col-3 mx-auto"><span style="text-align: center"><small><a href="https://www.google.com/maps/place/46+Av.+Anatole+France,+69700+Givors/@45.572229,4.794271,16z/data=!4m6!3m5!1s0x47f4e12b7e269b17:0x78fb43562d87a78c!8m2!3d45.5742672!4d4.7917234!16s%2Fg%2F11g8kt2h1s?hl=fr&entry=ttu" target="_blank">Agrandir le plan</a></small></span></div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
